@@ -1,0 +1,36 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.board{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin: 0% auto;
+    
+    
+}
+
+.board td{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.board td:last-child{
+    border-right: 0px;   
+
+}
+
+.board tr:last-child td{  
+   border-bottom: 0px;
+   
+}
+
+

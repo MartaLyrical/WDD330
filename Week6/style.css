@@ -1,0 +1,122 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+
+h2{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 34px;
+    padding: 30px 40px;
+    color: darkblue;
+}
+
+#todoList{
+    list-style: none;
+    width: 400px;
+    padding: 0;
+    margin: auto;
+    
+}
+
+#todoList li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: lightskyblue;
+    color: darkblue;
+    font-size: 16px;
+    transition: 0.2s;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+#todoList li:nth-child(odd) {
+    background: lightcyan;
+    color: darkblue;
+}
+
+/* Darker background-color on hover */
+#todolist #tasks li:hover {
+    background: darkblue;
+    color: white;
+}
+
+#todoList li > button{
+    flex: 0 0 40px;
+    padding: 0.5em;
+    margin-left: auto;
+    background-color: palevioletred;
+    border:0px;
+    color: white;
+    
+}
+#filterList{
+    list-style: none;
+    display: grid;
+    padding: 0;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    width: 398px;
+    border: 1px solid black;
+    margin: auto;
+    
+    
+}
+
+#filterList li{
+    padding: 1em;
+   
+}
+
+#input{
+    padding: 0.4em;
+}
+
+#addTodo{
+    padding: 0.5em;
+    background-color: lightskyblue;
+    color: white;
+    border-color: lightskyblue;
+}
+
+#addTodo:hover{
+    padding: 0.5em;
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+.task{
+    margin-top: 30px;
+    
+}
+
+#error{
+    font-size: 0.9em;
+    color: rgb(243, 39, 39);
+}
+
+#filterList button{
+    padding: 0.5em;
+    background-color: lightskyblue;
+    border-color:lightskyblue;
+    color: white;
+    float: right;
+    
+}
+
+#filterList button:active{
+    background-color: darkblue;
+    border-color: darkblue;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}

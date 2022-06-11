@@ -1,0 +1,89 @@
+h1:hover span {
+    color: #484848;
+    transform: translateX(40px)  rotate(10deg)  scale(1.5);
+}
+
+h1 span {
+    font-size: 30px;
+    color: #999999;
+    display: inline-block;
+}
+
+h2:hover span {
+    color: #484848;
+    transform: skew(15deg, 4deg);
+}
+
+h2 span {
+    font-size: 30px;
+    color: #999999;
+    display: inline-block;
+}
+
+.transition h1 span {
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 50ms;
+
+
+}
+
+.img-anime {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: square;
+    animation-duration: 6s;
+    animation-direction: reverse;
+    animation-play-state:running;
+}
+  
+
+  
+@keyframes square {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.myCanvas {
+    border: dotted 2px black;
+}
+
+.myCanvas2 {
+    border: dotted 2px blue;
+}
+
+.myCanvas3 {
+    border: dotted 2px orangered;
+}
+
+#saveButton{
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    color: aqua;
+    background-color:darkred;
+}
+
+svg{background-color:white;}
+#wing{fill:#81CCAA;}
+#body{fill:#B8E4C2;}
+#pupil{fill:#1F2600;}
+#beak{fill:#F69C0D;}
+.eye-ball{fill:#F6FDC4;}
+
+#mouseContainer{
+    margin: auto;
+    text-align: center;
+}
+
+.draganddrop .mc {
+    text-align: center;
+}
+   
+   

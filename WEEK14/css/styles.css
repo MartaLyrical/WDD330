@@ -1,0 +1,138 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(#2193b0,#6dd5ed);
+    color: #333;
+    padding: 70px;
+}
+  
+
+   
+button,
+input {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+  
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+}
+  
+  
+  .top-header {
+    color: white;
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 4rem;
+    padding: 0 0 30px 0;
+  }
+  
+  .top-header form {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-header form input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+  }
+  
+  
+  
+  .top-header form button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-image: linear-gradient(#b92b27,#1565C0);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .top-header form button:hover {
+    background-color: #c3112d;
+  }
+  
+  .top-header form .msg {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    max-width: 450px;
+    min-height: 40px;
+  }
+
+  li{
+    text-decoration: none;
+  }
+  
+ 
+  .result {
+    margin: 70px 0 20px;
+  }
+  
+  .result .cities {
+    display: grid;
+    grid-gap: 32px 20px;
+    grid-template-columns: repeat(4, 1fr);
+    content: "";
+  }
+  
+  .result .city {
+    position: relative;
+    padding: 40px 10%;
+    border-radius: 20px;
+    background-color:white;
+    color: #f64f59;
+  }
+  
+  
+  .result figcaption {
+    margin-top: 10px;
+  }
+  
+  .result .city-temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1565C0;
+  }
+  
+  
+  .result .city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
